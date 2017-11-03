@@ -3,6 +3,7 @@ package com.example.admin.mykatlin
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
+import android.widget.LinearLayout
 
 class MainActivity2 : AppCompatActivity() {
     val list = listOf(1, 2, 3, 4, 5, 6)
@@ -25,6 +26,13 @@ class MainActivity2 : AppCompatActivity() {
         list2.forEach {
             Log.i("linzehao", "filterNot $it")
         }
+
+        val a: Int? = null
+        a?.toString()
+
+        val myString = a?.toString() ?: throw IllegalStateException()
+
+
     }
 
 }
