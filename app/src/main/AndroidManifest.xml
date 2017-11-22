@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity2">
+        <activity android:name=".DownloadActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,6 +24,7 @@
 
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".MainActivity3"></activity>
+        <activity android:name=".MainActivity2"></activity>
     </application>
 
 </manifest>
