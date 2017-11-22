@@ -29,7 +29,6 @@ class MainActivity3 : AppCompatActivity() {
 
         })
 
-        binding.text1.setOnClickListener{  Log.i("linzehao","llll")}
 
         setOnClickListener1{a,b->a+b+a}
 
